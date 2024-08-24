@@ -64,8 +64,7 @@
 			children = (
 				F4A51C472C7A0A7D0013DFFC /* README.md */,
 				F4A51C442C7A04000013DFFC /* Utility */,
-				F4A51C2E2C7A03250013DFFC /* AppDelegate.swift */,
-				F4A51C302C7A03250013DFFC /* SceneDelegate.swift */,
+				F4A51C492C7A129F0013DFFC /* Application */,
 				F4A51C322C7A03250013DFFC /* ViewController.swift */,
 				F4A51C342C7A03250013DFFC /* Main.storyboard */,
 				F4A51C372C7A03270013DFFC /* Assets.xcassets */,
@@ -82,6 +81,15 @@
 				F4A51C432C7A04000013DFFC /* NetworkManager.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		F4A51C492C7A129F0013DFFC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F4A51C2E2C7A03250013DFFC /* AppDelegate.swift */,
+				F4A51C302C7A03250013DFFC /* SceneDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
