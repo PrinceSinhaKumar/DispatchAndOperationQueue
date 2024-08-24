@@ -86,7 +86,7 @@ class NetworkManager: NetworkService {
             } else {
                 completion(.failure(.requestFailed("An unknown error occurred.")))
             }
-        }
+        }.resume()
 
     }
     

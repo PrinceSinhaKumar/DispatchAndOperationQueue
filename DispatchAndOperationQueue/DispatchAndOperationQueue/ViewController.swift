@@ -11,6 +11,7 @@ class ViewController: UIViewController {
 
     let concurrentSerialVM = ConcurrentSerialQueueViewModel()
     let dispatchAsyncSyncVM = DispatchAsyncSyncViewModel()
+    let imageViewModel = ImageProcessingViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +21,8 @@ class ViewController: UIViewController {
         //concurrentSerialVM.debetMoneyConcurrentlySync() // ordered and some at last
        // dispatchAsyncSyncVM.problem1()
         //concurrentSerialVM.concurrentIntoSerial()
-        concurrentSerialVM.serialIntoconcurrent()
+        //concurrentSerialVM.serialIntoconcurrent()
+        imageViewModel.getImageURLs()
         print("Some")
     }
 }
