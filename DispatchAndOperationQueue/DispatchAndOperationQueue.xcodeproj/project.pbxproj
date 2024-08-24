@@ -16,6 +16,8 @@
 		F4A51C452C7A04000013DFFC /* NetworkHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A51C422C7A04000013DFFC /* NetworkHelpers.swift */; };
 		F4A51C462C7A04000013DFFC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A51C432C7A04000013DFFC /* NetworkManager.swift */; };
 		F4A51C482C7A0A7D0013DFFC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F4A51C472C7A0A7D0013DFFC /* README.md */; };
+		F4A51C4B2C7A292F0013DFFC /* ConcurrentSerialQueueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A51C4A2C7A292F0013DFFC /* ConcurrentSerialQueueViewModel.swift */; };
+		F4A51C4D2C7A39310013DFFC /* DispatchAsyncSyncViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A51C4C2C7A39310013DFFC /* DispatchAsyncSyncViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		F4A51C422C7A04000013DFFC /* NetworkHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelpers.swift; sourceTree = "<group>"; };
 		F4A51C432C7A04000013DFFC /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		F4A51C472C7A0A7D0013DFFC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		F4A51C4A2C7A292F0013DFFC /* ConcurrentSerialQueueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentSerialQueueViewModel.swift; sourceTree = "<group>"; };
+		F4A51C4C2C7A39310013DFFC /* DispatchAsyncSyncViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchAsyncSyncViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				F4A51C442C7A04000013DFFC /* Utility */,
 				F4A51C492C7A129F0013DFFC /* Application */,
 				F4A51C322C7A03250013DFFC /* ViewController.swift */,
+				F4A51C4A2C7A292F0013DFFC /* ConcurrentSerialQueueViewModel.swift */,
+				F4A51C4C2C7A39310013DFFC /* DispatchAsyncSyncViewModel.swift */,
 				F4A51C342C7A03250013DFFC /* Main.storyboard */,
 				F4A51C372C7A03270013DFFC /* Assets.xcassets */,
 				F4A51C392C7A03270013DFFC /* LaunchScreen.storyboard */,
@@ -165,7 +171,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4A51C452C7A04000013DFFC /* NetworkHelpers.swift in Sources */,
+				F4A51C4B2C7A292F0013DFFC /* ConcurrentSerialQueueViewModel.swift in Sources */,
 				F4A51C332C7A03250013DFFC /* ViewController.swift in Sources */,
+				F4A51C4D2C7A39310013DFFC /* DispatchAsyncSyncViewModel.swift in Sources */,
 				F4A51C462C7A04000013DFFC /* NetworkManager.swift in Sources */,
 				F4A51C2F2C7A03250013DFFC /* AppDelegate.swift in Sources */,
 				F4A51C312C7A03250013DFFC /* SceneDelegate.swift in Sources */,
