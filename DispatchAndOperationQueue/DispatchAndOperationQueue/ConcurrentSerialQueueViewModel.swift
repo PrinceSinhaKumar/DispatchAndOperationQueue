@@ -233,4 +233,35 @@ class ConcurrentSerialQueueViewModel {
         }
     }
     
+    func debetMoneySerialSync() {
+        serialQueue.sync {
+            self.debetMoneyFromAccount(amount: 100)
+        }
+        serialQueue.sync {
+            self.debetMoneyFromAccount(amount: 500)
+        }
+        serialQueue.sync {
+            self.debetMoneyFromAccount(amount: 50)
+        }
+        serialQueue.sync {
+            self.debetMoneyFromAccount(amount: 200)
+        }
+    }
+    
+    func concurrentIntoSerial() {
+        serialQueue.sync {
+            concurrentQueue.sync {
+                print("concurrentIntoSerial")
+            }
+        }
+    }
+    
+    func serialIntoconcurrent() {
+        concurrentQueue.sync {
+            serialQueue.sync {
+                print("serialIntoconcurrent")
+            }
+        }
+    }
+    
 }
