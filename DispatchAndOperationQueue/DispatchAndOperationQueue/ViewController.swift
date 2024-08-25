@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     let concurrentSerialVM = ConcurrentSerialQueueViewModel()
     let dispatchAsyncSyncVM = DispatchAsyncSyncViewModel()
     let imageViewModel = ImageProcessingViewModel()
+    let debouceViewModel = DebounceTechniqueViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,8 +23,20 @@ class ViewController: UIViewController {
        // dispatchAsyncSyncVM.problem1()
         //concurrentSerialVM.concurrentIntoSerial()
         //concurrentSerialVM.serialIntoconcurrent()
-        imageViewModel.getImageURLs()
-        print("Some")
+//        imageViewModel.getImageURLs()
+//        print("Some")
+        
+        debouce()
+    }
+    
+    func debouce() {
+        var number = 0
+            debouceViewModel.debounce {
+                for i in 0...100000 {
+                    number += 1
+                }
+                print(number)
+            }
     }
 }
 

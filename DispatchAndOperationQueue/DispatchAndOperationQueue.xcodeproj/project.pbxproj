@@ -19,6 +19,7 @@
 		F4A51C4B2C7A292F0013DFFC /* ConcurrentSerialQueueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A51C4A2C7A292F0013DFFC /* ConcurrentSerialQueueViewModel.swift */; };
 		F4A51C4D2C7A39310013DFFC /* DispatchAsyncSyncViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A51C4C2C7A39310013DFFC /* DispatchAsyncSyncViewModel.swift */; };
 		F4A51C502C7A4AAD0013DFFC /* ImageProcessingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A51C4F2C7A4AAD0013DFFC /* ImageProcessingViewModel.swift */; };
+		F4A51C742C7B259D0013DFFC /* DebounceTechniqueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A51C732C7B259D0013DFFC /* DebounceTechniqueViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		F4A51C4A2C7A292F0013DFFC /* ConcurrentSerialQueueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentSerialQueueViewModel.swift; sourceTree = "<group>"; };
 		F4A51C4C2C7A39310013DFFC /* DispatchAsyncSyncViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchAsyncSyncViewModel.swift; sourceTree = "<group>"; };
 		F4A51C4F2C7A4AAD0013DFFC /* ImageProcessingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessingViewModel.swift; sourceTree = "<group>"; };
+		F4A51C732C7B259D0013DFFC /* DebounceTechniqueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceTechniqueViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				F4A51C4A2C7A292F0013DFFC /* ConcurrentSerialQueueViewModel.swift */,
 				F4A51C4C2C7A39310013DFFC /* DispatchAsyncSyncViewModel.swift */,
 				F4A51C4F2C7A4AAD0013DFFC /* ImageProcessingViewModel.swift */,
+				F4A51C732C7B259D0013DFFC /* DebounceTechniqueViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				F4A51C4D2C7A39310013DFFC /* DispatchAsyncSyncViewModel.swift in Sources */,
 				F4A51C462C7A04000013DFFC /* NetworkManager.swift in Sources */,
 				F4A51C502C7A4AAD0013DFFC /* ImageProcessingViewModel.swift in Sources */,
+				F4A51C742C7B259D0013DFFC /* DebounceTechniqueViewModel.swift in Sources */,
 				F4A51C2F2C7A03250013DFFC /* AppDelegate.swift in Sources */,
 				F4A51C312C7A03250013DFFC /* SceneDelegate.swift in Sources */,
 			);
